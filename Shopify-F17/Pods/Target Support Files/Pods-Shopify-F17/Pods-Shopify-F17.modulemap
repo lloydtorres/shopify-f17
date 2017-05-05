@@ -1,0 +1,6 @@
+framework module Pods_Shopify_F17 {
+  umbrella header "Pods-Shopify-F17-umbrella.h"
+
+  export *
+  module * { export * }
+}

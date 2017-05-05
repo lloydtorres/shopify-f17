@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Shopify_F17" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1,234,567.89" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJv-6u-zVs">
+                                <rect key="frame" x="54" y="194" width="267" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Order Revenue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFC-kU-g0a">
+                                <rect key="frame" x="106" y="252" width="163" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e9K-fr-IB3">
+                                <rect key="frame" x="87.5" y="333" width="200" height="1"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="SxR-2a-beE"/>
+                                    <constraint firstAttribute="width" constant="200" id="flV-Q0-7bK"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sold" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blx-VY-MdA">
+                                <rect key="frame" x="171.5" y="394" width="32" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aerodynamic Cotton Keyboards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5k7-Yl-Jyd">
+                                <rect key="frame" x="74" y="470" width="227" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lloyd's Aerodynamic Shop" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPj-CQ-usT">
+                                <rect key="frame" x="82" y="65" width="211" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,234" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGg-co-reQ">
+                                <rect key="frame" x="149" y="423.5" width="77" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47843137254901957" green="0.70980392156862748" blue="0.36078431372549019" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CJv-6u-zVs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9st-Zn-uvo"/>
+                            <constraint firstItem="e9K-fr-IB3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ea3-ZB-xR2"/>
+                            <constraint firstItem="jFC-kU-g0a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tf9-Rs-Ms7"/>
+                            <constraint firstItem="e9K-fr-IB3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W3S-UV-MkZ"/>
+                            <constraint firstItem="jFC-kU-g0a" firstAttribute="top" secondItem="CJv-6u-zVs" secondAttribute="bottom" constant="10" id="W8E-Ov-dZ5"/>
+                            <constraint firstItem="5k7-Yl-Jyd" firstAttribute="top" secondItem="nGg-co-reQ" secondAttribute="bottom" constant="10" id="XyR-HM-8Ud"/>
+                            <constraint firstItem="nGg-co-reQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="amK-bd-DV6"/>
+                            <constraint firstItem="nGg-co-reQ" firstAttribute="top" secondItem="blx-VY-MdA" secondAttribute="bottom" constant="10" id="cUe-OO-Efz"/>
+                            <constraint firstItem="GPj-CQ-usT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="45" id="d4p-65-mIy"/>
+                            <constraint firstItem="5k7-Yl-Jyd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mTW-CS-HA7"/>
+                            <constraint firstItem="e9K-fr-IB3" firstAttribute="top" secondItem="jFC-kU-g0a" secondAttribute="bottom" constant="60" id="nt1-WF-KoH"/>
+                            <constraint firstItem="blx-VY-MdA" firstAttribute="top" secondItem="e9K-fr-IB3" secondAttribute="bottom" constant="60" id="q93-0D-MOB"/>
+                            <constraint firstItem="GPj-CQ-usT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xfz-I5-45f"/>
+                            <constraint firstItem="blx-VY-MdA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zz8-RQ-Sxa"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="aeroCottonKeyboardSoldLabel" destination="nGg-co-reQ" id="YEf-DG-Hg4"/>
+                        <outlet property="totalOrderRevenueLabel" destination="CJv-6u-zVs" id="YUP-XC-aVu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
